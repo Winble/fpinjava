@@ -5,6 +5,7 @@ package introduction;
  *
  * @author bowenzhang
  */
+@FunctionalInterface
 public interface IFunction<T, R> {
 
     R apply(T arg);
