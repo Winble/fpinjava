@@ -21,7 +21,7 @@ public class Payment {
         if (creditCard.equals(payment.creditCard)) {
             return new Payment(creditCard, amount + payment.amount);
         } else {
-            throw new IllegalStateException("Cards dont't match.");
+            throw new IllegalStateException("Cards don't match.");
         }
     }
 
